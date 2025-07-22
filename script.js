@@ -1,7 +1,7 @@
 // script.js
 const cursos = [
   {
-    semestre: "Semestre 1",
+    semestre: "Semestre I",
     ramos: [
       { nombre: "Gestión e Investigación en Salud I", abre: ["Gestión e Investigación en Salud II"] },
       { nombre: "Morfología I", abre: ["Morfología II"] },
@@ -12,7 +12,7 @@ const cursos = [
     ]
   },
   {
-    semestre: "Semestre 2",
+    semestre: "Semestre II",
     ramos: [
       { nombre: "Gestión e Investigación en Salud II", abre: ["Gestión e Investigación en Salud III"], requiere: ["Gestión e Investigación en Salud I"] },
       { nombre: "Morfología II", abre: ["Fundamentos Biológicos de los Procesos Funcionales, sus Alteraciones y Modulación Farmacológica"], requiere: ["Morfología I"] },
@@ -21,7 +21,7 @@ const cursos = [
     ]
   },
   {
-    semestre: "Semestre 3",
+    semestre: "Semestre III",
     ramos: [
       { nombre: "Gestión e Investigación en Salud III", abre: ["Gestión e Investigación en Salud IV"], requiere: ["Gestión e Investigación en Salud II"] },
       { nombre: "Electivo" },
@@ -35,6 +35,8 @@ const cursos = [
       { nombre: "Gestión e Investigación en Salud IV", abre: ["Investigación I"], requiere: ["Gestión e Investigación en Salud III"] },
       { nombre: "Módulo Genito Urinario", abre: ["Módulo Integrado Enfermedades Prioritarias y Aspectos Legales"] },
       { nombre: "Física Aplicada I", abre: ["Física Aplicada II"], requiere: ["Física General"] }
+      { nombre: "Fotografía médica"},
+      { nombre: "Mantención de equipos radiologicos"}
     ]
   },
   {
